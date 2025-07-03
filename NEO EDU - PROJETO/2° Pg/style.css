@@ -1,0 +1,87 @@
+:root{
+    --branca:white;
+    --azul-escuro:rgb(10, 10, 105);
+    --azul-esverdeado:rgb(0, 183, 255);
+    --verde-diferenciado:rgb(41, 180, 145);
+    --amarelo-queimado:rgba(219, 233, 33, 0.87);
+
+}
+ body{
+     background-image: linear-gradient( to right,black -20%,var(--azul-escuro),var(--azul-escuro),rgb(0, 78, 78));
+  background-size: 500% 100%;
+  animation: degrade-animado 3s  infinite alternate ;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EFEITOS */
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
