@@ -4,6 +4,7 @@
     --azul-esverdeado:rgb(0, 183, 255);
     --verde-diferenciado:rgb(41, 180, 145);
     --amarelo-queimado:rgba(219, 233, 33, 0.87);
+    --preto:black;
 
 }
 
@@ -342,6 +343,29 @@ footer h1{
     line-height: 1.4;
   }
 }
+.missão{
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+  .missão div{border: 3px solid var(--verde-diferenciado);  height:200px; margin: 100px; border-radius: 10px; padding: 15px; }
 
+html {
+  scroll-behavior: smooth;
+}
+/* Começa invisível e deslocado */
+.efeitoScroll {
+  opacity: 30;
+  transform: translateY(-50px);
+  transition: all 1s ease;
+}
 
-
+/* Quando entra na tela, ativa a animação */
+.efeitoScroll.visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
